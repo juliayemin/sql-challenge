@@ -7,8 +7,8 @@ This project involves setting up an employee database using PostgreSQL and condu
 
 To set up the database, followed these steps:
 
-1. Start by running the PostgreSQL server and log in using PGAdmin4.
-2. Create a new database named `company_db`.
+1. Started by running the PostgreSQL server and log in using PGAdmin4.
+2. Created a new database named `company_db`.
 3. Imported each CSV file as a new table within database. Made sure to set the appropriate data types and primary keys.
 
 The following tables are included:
@@ -43,9 +43,4 @@ Once the database is set up, the following analyses were performed using SQL que
 
 ### Running the Analyses
 
-To run the analysis, execute the provided SQL queries in PGAdmin4's query tool. The queries can be found in the `queries.sql` file. For example, to list all employees along with their salary details, run the following SQL query:
-
-```sql
-SELECT e.emp_no, e.last_name, e.first_name, e.sex, s.salary
-FROM employees e
-JOIN salaries s ON e.emp_no = s.emp_no;
+To run the analysis, executed the provided SQL queries in PGAdmin4's query tool. The queries can be found in the `queries.sql` file.
